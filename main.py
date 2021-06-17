@@ -2,7 +2,7 @@ from turtle import Turtle, Screen
 import random
 
 screen = Screen()
-screen.setup(width = 500, height= 400) # setting screen size
+screen.setup(width = 500, height= 400) 
 user_bet = screen.textinput(title="make your bet", prompt="Which turtle will win the race? Enter the colour: ")
 
 colors = ["red", "purple", "brown", "blue", "orange", "green"]
